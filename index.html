@@ -2,29 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <title>P Gallery</title>
+    <script src="js/script.js"></script>
+    <title>P Galleries</title>
 </head>
 <body>
   <header>
-    <h1 class="logo">P Gallery</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Design</a>
-        </li>
-        <li>
-          <a href="#">Programming</a>
-        </li>
-        <li>
-          <a href="#">CMS</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">P Galleries</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">All Projects</a>
+          </li>
+          <li>
+            <a href="#">Design</a>
+          </li>
+          <li>
+            <a href="#">Programming</a>
+          </li>
+          <li>
+            <a href="#">CMS</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <section class="tagline">
     <div class="container">
@@ -35,7 +38,16 @@
     <div class="container">
       <h1 id="heading">All Projects</h1>
       <ul id="gallery">
-        <li><a href="#"><img src="img/web1.jpg" alt=""></a></li>
+        <li class="programming cms" data-title="Project 1"><a href="#"><img src="img/web1.jpg" alt=""></a></li>
+        <li class="programming" data-title="Project 2" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web2.jpg" alt=""></a></li>
+        <li class="programming" data-title="Project 3" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web3.jpg" alt=""></a></li>
+        <li class="design programming" data-title="Project 4" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web4.jpg" alt=""></a></li>
+        <li class="design" data-title="Project 5" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web5.jpg" alt=""></a></li>
+        <li class="design" data-title="Project 6" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web6.jpg" alt=""></a></li>
+        <li class="programming"><a href="#"><img src="img/web7.jpg" alt=""></a></li>
+        <li class="programming" data-title="Project 7" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web8.jpg" alt=""></a></li>
+        <li class="programming" data-title="Project 8" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web9.jpg" alt=""></a></li>
+        <li class="cms design" data-title="Project 9" data-desc="Migas marfa paleo yr, chicharrones pork belly hell of ramps"><a href="#"><img src="img/web10.jpg" alt=""></a></li>
       </ul>
     </div>
   </section>
